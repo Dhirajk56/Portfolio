@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project_1 from "../assets/projects/project-1.jpg";
+import project_2 from "../assets/projects/project-2.jpg";
+import project_3 from "../assets/projects/project-3.jpg";
+import project_4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -25,27 +25,27 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    image: project1,
+    image: project_1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React.js", "Node.js", "MongoDB"],
   },
   {
     title: "TrueCaller Clone",
-    image: project2,
+    image: project_2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "React.Native", "MongoDb", "Express"],
   },
   {
     title: "Fun Game",
-    image: project3,
+    image: project_3,
     description: "A color matching game ,Memory game",
     technologies: ["HTML", "CSS", "React.js", "Tailwind"],
   },
   {
     title: "Ubder Clone",
-    image: project4,
+    image: project_4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDb"],
