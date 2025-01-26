@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/images/photo2.jpeg";
+const Profile = "/assets/images/photo2.jpeg";
 import { HERO_CONTENT } from "../constants";
 import { motion } from "motion/react";
 

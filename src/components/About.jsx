@@ -1,5 +1,5 @@
 import React from "react";
-import Profile2 from "../assets/images/about.jpg";
+const Profile2 = "/assets/images/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 const About = () => {
