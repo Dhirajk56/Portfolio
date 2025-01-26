@@ -44,7 +44,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "Tailwind"],
   },
   {
-    title: "Ubder Clone",
+    title: "Uber Clone",
     image: project_4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
