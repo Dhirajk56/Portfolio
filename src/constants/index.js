@@ -2,6 +2,7 @@ const project_1 = "/assets/projects/project1.jpg";
 const project_2 = "/assets/projects/project2.png";
 const project_3 = "/assets/projects/project3.png";
 const project_4 = "/assets/projects/project4.png";
+const project_5 = "/assets/projects/project5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -44,11 +45,18 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React.js", "Tailwind"],
   },
   {
-    title: "Uber Clone",
+    title: "Library Management System",
     image: project_4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Created a web-based library management system using MERN stack (MongoDB, Express.js, React.js, Node.js). Features include book cataloging, user authentication, borrowing/returning system, and an admin dashboard for book management.",
     technologies: ["HTML", "CSS", "React.js", "Express", "MongoDb"],
+  },
+  {
+    title: "CarFinder",
+    image: project_5,
+    description:
+      "CarFindder is a modern React-based web application that helps users easily search, filter, and explore a wide range of cars. Whether you’re looking for a specific brand, fuel type, or color, CarFindder allows users to seamlessly find vehicles that match their preferences.",
+    technologies: ["HTML", "CSS", "React.js", "Tailwind"],
   },
 ];
 
