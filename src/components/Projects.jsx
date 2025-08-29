@@ -21,13 +21,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={projects.image}
-                alt={projects.title}
-                className="mb-6 rounded "
-                height={150}
-                width={150}
-              />
+              <a href={projects.url} target="_blank">
+                <img
+                  src={projects.image}
+                  alt={projects.title}
+                  className="mb-6 rounded hover:scale-110 transition-all ease-in-out duration-100 hover:opacity-70 "
+                  height={150}
+                  width={150}
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
