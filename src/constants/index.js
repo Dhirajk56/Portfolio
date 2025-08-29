@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project_3,
     description: "A color matching game ,Memory game",
     technologies: ["HTML", "CSS", "React.js", "Tailwind"],
-    url: "https://colortube.vercel.app/",
+    url: "https://vercel.com/dhirajk56s-projects/fun-games",
   },
   {
     title: "Library Management System",
